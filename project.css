@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("market.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #070707;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #070707;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+main {
+    padding: 20px 0;
+}
+
+#post-form {
+    background-color: #757474;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#post-form h2 {
+    margin-bottom: 20px;
+}
+
+#post-form form input[type="text"],
+#post-form form input[type="number"],
+#post-form form input[type="file"] {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#post-form form button {
+    background-color: #050505;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#post-form form button:hover {
+    background-color: #111111;
+}
+
+#products {
+    display: -moz-grid-line;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background-color: #868080;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(34, 33, 33, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.product p {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #b9babb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#about-us {
+    background-color: #8d8787;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#about-us h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#about-us p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
